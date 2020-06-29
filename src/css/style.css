@@ -1,0 +1,40 @@
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+html, body {
+  margin: none; 
+  padding: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #689CD2;
+  color: #fff;
+  font-family: Helvetica;
+}
+.header_section {
+	display: flex;
+	align-items: center;
+	
+}
+.header_item {
+  padding: 5px 15px;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.header_item:hover {
+  background-color: #00BFFF;
+  border-radius: 5px;
+}
+.headerButton {
+  cursor: pointer;
+}
+.headerlogo:hover {
+  background: none;
+  margin-right:10rem;
+}
